@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     max-width:100%;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 html{
     font-size:62.5%;
@@ -38,13 +38,14 @@ border-bottom: 3px solid #00adb5;
 a:link {
     text-decoration: none;
   }
-a:hover{
+.links a:hover{
 background-color: lightgray;
 color: black;
 }
 .about_img{
     display: flex;
-    
+    width: 100%;
+    padding: 20px;
 }
 
 #about_section{
@@ -52,14 +53,20 @@ color: black;
     
 }
 .about_text p{
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     display: flex;
-padding: 10px;
+padding: 20px;
+text-align: center;
 }
 .about_text a{
     display: flex;
     justify-content:center;
-    padding:  20px;
+    padding:  10px;
+    
+}
+.about_text button:hover{
+    background-color: lightgray;
+    color: black;
 }
 h2{
     font-size: 2.2rem;
@@ -80,10 +87,27 @@ button{
 
 .gallery{
     display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.gallery h3{
+    font-size: 1.75rem;
+    text-align: center;
+    padding: 10px;
+}
+.gallery img{
+    object-fit: fill;
 }
 footer{
     border-top: 3px solid #00adb5;
     background-color: #222831;
+   border: 50px;
+}
+footer a{
+    display: flex;
+    justify-content: center;
+}
+footer button:hover{
+    background-color: lightgray;
+    color: black;
 }
