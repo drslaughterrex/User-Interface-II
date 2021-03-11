@@ -17,12 +17,8 @@ h1{
 nav{
     width:100%;
     font-size: 2.2rem;
-    /* padding: 0 15px; */
     display: flex;
-    
     align-items: flex-end;
-/* background-color: white; */
-/* height: 13vh; */
 }
 nav .links{
     display: flex;
@@ -31,8 +27,7 @@ nav .links{
 }
 header{
     background-color: #222831;
-    /* height: 20vh; */
-
+border-bottom: 3px solid #00adb5;
 }
 .links a{
     font-family: 'Quicksand', sans-serif;
@@ -47,19 +42,29 @@ a:hover{
 background-color: lightgray;
 color: black;
 }
-
-#about_text{
+.about_img{
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-
-
+    
 }
-#about_text p{
-    font-size: 1.5rem;
+
+#about_section{
+    display: flex;
+    
+}
+.about_text p{
+    font-size: 1.6rem;
+    display: flex;
+padding: 10px;
+}
+.about_text a{
+    display: flex;
+    justify-content:center;
+    padding:  20px;
 }
 h2{
     font-size: 2.2rem;
+    text-align: center;
+    padding: 10px;
 }
 button{
     font-family: 'Quicksand', sans-serif;
@@ -73,6 +78,12 @@ button{
     
 }
 
-.codeimg{
-width:50%;
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+footer{
+    border-top: 3px solid #00adb5;
+    background-color: #222831;
 }
