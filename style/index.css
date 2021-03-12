@@ -43,8 +43,8 @@ a:link {
 }
 .about_img {
 	display: flex;
-	width: 100%;
-	padding: 20px;
+	width: 75%;
+	padding: 30px;
 }
 
 #about_section {
@@ -53,7 +53,7 @@ a:link {
 .about_text p {
 	font-size: 1.7rem;
 	display: flex;
-	padding: 20px;
+	padding: 30px;
 	text-align: center;
 }
 .about_text a {
@@ -98,6 +98,9 @@ footer {
 	border-top: 3px solid #00adb5;
 	background-color: #222831;
 	border: 50px;
+	font-family: "RocknRoll One", sans-serif;
+	font-size: 5rem;
+	text-shadow: 2px 2px rgb(71, 71, 71);
 }
 footer a {
 	display: flex;
@@ -106,4 +109,9 @@ footer a {
 footer button:hover {
 	background-color: lightgray;
 	color: black;
+}
+footer p {
+	display: flex;
+	justify-content: center;
+	padding: 30px;
 }
